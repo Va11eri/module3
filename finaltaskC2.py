@@ -28,7 +28,8 @@ class Ship:
         self.l = l
         self.o = o
         self.lives = l
-
+        
+    @property
     def dots(self):
         ship_dots = []
         for i in range(self.l):
